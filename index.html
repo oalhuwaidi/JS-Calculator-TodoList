@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="calculatorBody">
-    <div>0</div>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <!--Operators-->
-    <div>+</div>
-    <div>-</div>
-    <div>%</div>
-    <div>*</div>
-    <!--Operators-->
-    <div>.</div>
-    <div>AC</div>
-    <div>=</div>
+<div class="calculatorKeys">
+    <div class="calculatorDisplay">0</div>
+    <div class="calculatorBody">
+        <!--numbers-->
+        <div>0</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <!--Operators-->
+        <div class="key--operator">+</div>
+        <div class="key--operator">-</div>
+        <div class="key--operator">/</div>
+        <div class="key--operator">*</div>
+        <!--Result-->
+        <div data-action="decimal">.</div>
+        <div data-action="clear">AC</div>
+        <div class="key--equal" data-action="">=</div>
+    </div>
 </div>
-
+<script src="scripts.js"></script>
 </body>
 </html>
